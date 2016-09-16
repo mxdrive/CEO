@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="iCeo Test Suite">
+
+    <test name="Social Proof">
+        <classes>
+            <class name="SocialProof" />
+        </classes>
+    </test>
+
+    <test name="CEO Profile">
+        <classes>
+            <class name="CEOProfile" />
+        </classes>
+    </test>
+
+    <test name="Groups">
+        <classes>
+            <class name="Groups" />
+        </classes>
+    </test>
+
+    <test name="Registration">
+        <classes>
+            <class name="Registration" />
+        </classes>
+    </test>
+
+    <test name="Authorization">
+        <classes>
+            <class name="Authorization" />
+        </classes>
+    </test>
+
+</suite>
